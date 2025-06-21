@@ -3882,52 +3882,19 @@ case 'menu': {
 ⎔ ${global.prefix}qc2
 ⎔ ${global.prefix}texto
 
-╭──────────────╮  
-│ ✦ 𝙃𝙀𝙍𝙍𝘼𝙈𝙄𝙀𝙉𝙏𝘼𝙎 ✦ │  
-╰──────────────╯  
+ 
+✦ 𝙃𝙀𝙍𝙍𝘼𝙈𝙄𝙀𝙉𝙏𝘼𝙎   
+  
 
 ⎔ ${global.prefix}ver → responder a un mensaje  
-⎔ ${global.prefix}tourl → responder a una imagen/video/musica
-⎔ ${global.prefix}whatmusic → Responder a un audio(mp3)/video(mp4)
-⎔ ${global.prefix}perfil 
-⎔ ${global.prefix}get
-⎔ ${global.prefix}xxx
-⎔ ${global.prefix}carga
-⎔ ${global.prefix}addco
-⎔ ${global.prefix}delco
 
-╭──────────────╮  
-│ ✦ 𝙈𝙄𝙉𝙄 𝙅𝙐𝙀𝙂𝙊𝙎 ✦ │  
-╰──────────────╯  
-⎔ ${global.prefix}verdad  
-⎔ ${global.prefix}reto  
-⎔ ${global.prefix}personalidad  
-⎔ ${global.prefix}ship  
-⎔ ${global.prefix}parejas  
-⎔ ${global.prefix}menurpg
-
-╭──────────────╮  
-│ ✦ COMANDO +18 ✦ │  
-╰──────────────╯  
-⎔ ${global.prefix}videoxxx
-⎔ ${global.prefix}pornololi
-⎔ ${global.prefix}nsfwneko
-⎔ ${global.prefix}Nsfwwaifu
-⎔ ${global.prefix}Waifu
-⎔ ${global.prefix}Neko
-
-╭─────────────────╮  
- ✦ 𝘼𝙕𝙐𝙍𝘼 𝙐𝙇𝙏𝙍𝘼 𝙀𝙎𝙏Á 𝙀𝙉 𝘾𝙊𝙉𝙎𝙏𝘼𝙉𝙏𝙀 𝘿𝙀𝙎𝘼𝙍𝙍𝙊𝙇𝙇𝙊. 
-  𝙎𝙀 𝘼𝙂𝙍𝙀𝙂𝘼𝙍Á𝙉 𝙈Á𝙎 𝙁𝙐𝙉𝘾𝙄𝙊𝙉𝙀𝙎 𝙋𝙍𝙊𝙉𝙏𝙊.   
-╰─────────────────╯  
-
-👨‍💻 𝘿𝙚𝙨𝙖𝙧𝙧𝙤𝙡𝙡𝙖𝙙𝙤 𝙥𝙤𝙧 𝙍𝙪𝙨𝙨𝙚𝙡𝙡 𝙓𝙕`;
+> ᴄʀᴇᴀᴅᴏʀ: 𝔍𝔬𝔰𝔢 ℭ`;
 
     // Enviar usando sendMessage2
     await sock.sendMessage2(
   chatId,
   {
-    image: { url: "https://cdn.russellxz.click/752ef2f1.jpeg" }, 
+    image: { url: "https://files.catbox.moe/sorwhq.jpg" }, 
     caption: captionText 
   },
   msg 
@@ -3950,70 +3917,64 @@ case 'menugrupo': {
     });
 
     const chatId = msg.key.remoteJid;
-    const captionText = `╔════════════════╗  
-║  𝐀𝐙𝐔𝐑𝐀 𝐔𝐋𝐓𝐑𝐀             
-║   🎭 𝙼𝙴𝙽𝚄 𝙳𝙴 𝙶ℝ𝚄𝙿𝙾 🎭    
-╚════════════════╝  
+    const captionText = `  
+  частная система - 𝔍𝔬𝔰𝔢 ℭ             
+  𝙼̷𝙴̷𝙽̷𝚄̷ 𝙳̷𝙴̷ 𝙶̷𝚁̷𝚄̷𝙿̷𝙾̷     
+ 
 
-🛠 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐂𝐈Ó𝐍  
-╭✦ ${global.prefix}setinfo  
-├✦ ${global.prefix}infogrupo
-├✦ ${global.prefix}setname  
-├✦ ${global.prefix}delwelcome
-├✦ ${global.prefix}setwelcome
-├✦ ${global.prefix}antiporno on o off
-├✦ ${global.prefix}antidelete on o off
-├✦ ${global.prefix}setfoto  
-├✦ ${global.prefix}setreglas
-├✦ ${global.prefix}reglas
-├✦ ${global.prefix}welcome on/off  
-├✦ ${global.prefix}despedidas on/off
-├✦ ${global.prefix}modocaliente on/off
-╰────────────────
+☰ 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐂𝐈Ó𝐍  
+⍚ ${global.prefix}setinfo  
+⍚ ${global.prefix}infogrupo
+⍚ ${global.prefix}setname  
+⍚ ${global.prefix}delwelcome
+⍚ ${global.prefix}setwelcome
+⍚ ${global.prefix}antiporno on o off
+⍚ ${global.prefix}antidelete on o off
+⍚ ${global.prefix}setfoto  
+⍚ ${global.prefix}welcome on/off  
+⍚ ${global.prefix}despedidas on/off
 
-🔱 𝐀𝐃𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐀𝐂𝐈Ó𝐍  
-╭✦ ${global.prefix}daradmins  
-├✦ ${global.prefix}quitaradmins  
-├✦ ${global.prefix}tag  
-├✦ ${global.prefix}tagall  
-├✦ ${global.prefix}modoadmins on o off
-├✦ ${global.prefix}invocar  
-├✦ ${global.prefix}todos  
-├✦ ${global.prefix}totalmensaje
-├✦ ${global.prefix}fantasmas
-├✦ ${global.prefix}fankick
-├✦ ${global.prefix}okfan
-├✦ ${global.prefix}delete
-├✦ ${global.prefix}damelink  
-├✦ ${global.prefix}mute
-├✦ ${global.prefix}unmute
-├✦ ${global.prefix}ban
-├✦ ${global.prefix}unban
-├✦ ${global.prefix}abrir/ automaticamente
-├✦ ${global.prefix}cerrar/ automaticamente
-├✦ ${global.prefix}abrirgrupo  
-╰✦ ${global.prefix}cerrargrupo  
 
-🛡 𝐒𝐄𝐆𝐔𝐑𝐈𝐃𝐀𝐃  
-╭✦ ${global.prefix}antilink on/off  
-├✦ ${global.prefix}antiarabe on/off  
-├✦ ${global.prefix}antis on/off  
-├✦ ${global.prefix}antidelete on/off
-├✦ ${global.prefix}kick  
-╰✦ ${global.prefix}add
+☰ 𝐀𝐃𝐌𝐈𝐍𝐈𝐒𝐓𝐑𝐀𝐂𝐈Ó𝐍  
+⍚ ${global.prefix}promote  
+⍚ ${global.prefix}demote  
+⍚ ${global.prefix}tag  
+⍚ ${global.prefix}tagall  
+⍚ ${global.prefix}modoadmins on o off
+⍚ ${global.prefix}invocar  
+⍚ ${global.prefix}todos  
+⍚ ${global.prefix}totalmensaje
+⍚ ${global.prefix}fantasmas
+⍚ ${global.prefix}fankick
+⍚ ${global.prefix}okfan
+⍚ ${global.prefix}delete
+⍚ ${global.prefix}link  
+⍚ ${global.prefix}mute
+⍚ ${global.prefix}unmute
+⍚ ${global.prefix}ban
+⍚ ${global.prefix}unban
+⍚ ${global.prefix}abrir/ automaticamente
+⍚ ${global.prefix}cerrar/ automaticamente
+⍚ ${global.prefix}abrirgrupo  
+⍚ ${global.prefix}cerrargrupo   
+⍚ ${global.prefix}antilink on/off  
+⍚ ${global.prefix}antiarabe on/off  
+⍚ ${global.prefix}anti spam/sticker on/off  
+⍚ ${global.prefix}antidelete on/off
+⍚ ${global.prefix}kick  
+⍚ ${global.prefix}add
 
-📌 𝐌Á𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐏𝐑Ó𝐗𝐈𝐌𝐀𝐌𝐄𝐍𝐓𝐄...
 
-⟢ 𝐀𝐙𝐔𝐑𝐀 𝐔𝐋𝐓𝐑𝐀 ⟣`;
+> частная система - 𝔍𝔬𝔰𝔢 ℭ`;
 
-    const videoResponse = await axios.get("https://cdn.russellxz.click/c113150e.jpeg", { 
+    const videoResponse = await axios.get("https://files.catbox.moe/sorwhq.jpg", { 
       responseType: 'arraybuffer' 
     });
 
     await sock.sendMessage2(
   chatId,
   {
-    image: { url: "https://cdn.russellxz.click/c113150e.jpeg" }, 
+    image: { url: "https://files.catbox.moe/sorwhq.jpg" }, 
     caption: captionText 
   },
   msg
@@ -4081,8 +4042,8 @@ case 'setinfo': {
   break;
 }
         
-case 'daradmin':
-case 'daradmins': {
+case 'promote':
+case 'promover': {
   try {
     const chatId = msg.key.remoteJid;
     // Verificar que se use en un grupo
@@ -4128,7 +4089,7 @@ case 'daradmins': {
 
 // Comando para quitar derechos de admin (quitaradmin / quitaradmins)
 
-case 'damelink': {
+case 'link': {
   try {
     const chatId = msg.key.remoteJid;
     // Verificar que se use en un grupo
@@ -4402,7 +4363,7 @@ case 'setname': {
   break;
 }
         
-case 'quitaradmin':
+case 'demote':
 case 'quitaradmins': {
   try {
     const chatId = msg.key.remoteJid;
@@ -4810,8 +4771,8 @@ case 'todos': {
     const args = messageText.trim().split(" ").slice(1);
     const extraMsg = args.join(" ");
 
-    let finalMsg = "━〔 *📢 INVOCACIÓN 📢* 〕━➫\n";
-    finalMsg += "٩(͡๏̯͡๏)۶ Por Azura Ultra ٩(͡๏̯͡๏)۶\n";
+    let finalMsg = "━〔 * INVOCACIÓN * 〕━➫\n";
+    finalMsg += "частная система - 𝔍𝔬𝔰𝔢 ℭ\n";
     if (extraMsg.trim().length > 0) {
       finalMsg += `\n❑ Mensaje: ${extraMsg}\n\n`;
     } else {
@@ -13372,7 +13333,7 @@ case 'toimg': {
         // Enviar la imagen resultante
         await sock.sendMessage(msg.key.remoteJid, { 
             image: { url: imagePath },
-            caption: "🖼️ *Aquí está tu imagen convertida del sticker.*"
+            caption: " *Aquí está tu imagen convertida del sticker.*"
         }, { quoted: msg });
 
         // Eliminar archivos temporales después de enviarlos
@@ -13547,8 +13508,8 @@ case "s":
 
         // 🌟 Formato llamativo para la metadata del sticker 🌟
         let metadata = {
-            packname: `✨ Lo Mandó Hacer: ${senderName} ✨`,
-            author: `🤖 Bot Creador: Azura Ultra\n🛠️ Desarrollado por: 𝙍𝙪𝙨𝙨𝙚𝙡𝙡 xz💻\n${fechaCreacion}`
+            packname: `частная система - 𝔍𝔬𝔰𝔢 ℭ: ${senderName} `,
+            author: `частная система - 𝔍𝔬𝔰𝔢 ℭ\n Desarrollado por:Jose C\n${fechaCreacion}`
         };
 
         let stickerBuffer;
@@ -13848,19 +13809,14 @@ case 'info':
       react: { text: "ℹ️", key: msg.key }
     });
 
-    const infoMessage = `╭─ *🤖 AZURA ULTRA* ─╮
+    const infoMessage = `╭─ *частная система - 𝔍𝔬𝔰𝔢 ℭ* ─╮
 │ 🔹 *Prefijo actual:* ${global.prefix}
-│ 👑 *Dueño:* Russell xz
-│ 🛠️ *Bot desarrollado desde cero* con la ayuda de Chatgpt.
-│ 🚀 *Creado por:* Russell
+│ 👑 *Dueño:* Jose C
 │  
-├─〔 📥 *Descargas Redes* 〕─
-│ 📌 *IG, TikTok y FB*  
-│    - 👤 *Colaboró:* DIEGO-OFC  
-│  
+│   
 │ 📌 *Descargas youtube*
 │     (.play, .play2, .ytmp3, .ytmp4)  
-│    - 👤 *Colaboró:* Eliasar54  
+│     
 │  
 ├─〔 📜 *Menús y Comandos* 〕─
 │ 📌 Usa *${global.prefix}menu* para ver los comandos principales.  
@@ -13870,7 +13826,7 @@ case 'info':
 
     await sock.sendMessage2(msg.key.remoteJid,
   {
-    image: { url: "https://cdn.russellxz.click/6984cf1b.jpeg" }, 
+    image: { url: "https://files.catbox.moe/sorwhq.jpg" }, 
     caption: infoMessage 
   },
   msg 
@@ -13935,7 +13891,7 @@ case "ping":
 
         // Enviar mensaje con imagen y detalles del servidor
         await sock.sendMessage(msg.key.remoteJid, {
-            image: { url: "https://cdn.dorratz.com/files/1740372224017.jpg" }, 
+            image: { url: "https://files.catbox.moe/sorwhq.jpg" }, 
             caption: `🏓 *Pong! El bot está activo.*\n\n` +
                      `📅 *Fecha y hora actual:* ${formattedDate}\n\n` +
                      `🕒 *Tiempo Activo:* ${uptimeFormatted}\n\n` +
@@ -13948,8 +13904,7 @@ case "ping":
                      `🔹 *Libre:* ${freeMemGB}GB\n` +
                      `🔹 *Total:* ${totalMemGB}GB\n\n` +
                      `💾 *Disco:* ${diskUsage}\n\n` +
-                     `🌐 *Alojado en:* *Sky Ultra Plus* 🚀\n` +
-                     `📌 *Proveedor de Hosting de Confianza*`,
+                     
             quoted: msg // Responder citando al mensaje original
         });
 
@@ -14243,8 +14198,8 @@ case "perfil": {
 
 case 'creador': {
     const ownerNumber = "15167096032@s.whatsapp.net"; // Número del dueño en formato WhatsApp
-    const ownerName = "Russell xz 🤖"; // Nombre del dueño
-    const messageText = "📞 *Contacto del Creador:*\n\nSi tienes dudas, preguntas o sugerencias sobre el bot, puedes contactar a mi creador.\n\n📌 *Nombre:* Russell\n📌 *Número:* +1 (516) 709-6032\n💬 *Mensaje directo:* Pulsa sobre el contacto y chatea con él.";
+    const ownerName = "Jose C"; // Nombre del dueño
+    const messageText = "📞 *Contacto del Creador:*\n\nSi tienes dudas, puedes contactar a mi creador.\n\n📌 *Nombre:* Jose C\n📌 *Número:* +504 9737-1321\n💬 *Mensaje directo:* Pulsa sobre el contacto y chatea con él.";
 
     // Enviar mensaje con el contacto del dueño
     await sock.sendMessage(msg.key.remoteJid, {
@@ -14615,7 +14570,7 @@ break;
                 if (!isAdmin && !isOwner) {
                     return sock.sendMessage(
                         msg.key.remoteJid,
-                        { text: "🚫 *No tienes permisos para abrir el grupo.*\n⚠️ *Solo administradores o el dueño del bot pueden usar este comando.*" },
+                        { text: " *No tienes permisos para abrir el grupo.*\n⚠️ *Solo administradores o el dueño del bot pueden usar este comando.*" },
                         { quoted: msg }
                     );
                 }
@@ -14654,7 +14609,7 @@ case "kick": {
 
     if (!isSenderAdmin && !isSenderOwner) {
       return await sock.sendMessage(chatId, {
-        text: "🚫 *Solo los administradores o el owner pueden expulsar miembros del grupo.*"
+        text: " *Solo los administradores o el owner pueden expulsar miembros del grupo.*"
       }, { quoted: msg });
     }
 
@@ -14691,7 +14646,7 @@ case "kick": {
     await sock.groupParticipantsUpdate(chatId, [userToKick], "remove");
 
     await sock.sendMessage(chatId, {
-      text: `🚷 *El usuario @${userToKick.split("@")[0]} ha sido expulsado del grupo.*`,
+      text: ` *El usuario @${userToKick.split("@")[0]} ha sido expulsado del grupo.*`,
       mentions: [userToKick]
     }, { quoted: msg });
 
