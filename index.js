@@ -87,18 +87,26 @@ const { cargarSubbots } = require("./indexsubbots");
     const chalk = require("chalk");
     const yargs = require('yargs/yargs')
     const { tmpdir } = require('os')
-    const { join } = require('path')
-    const figlet = require("figlet");
-    const fs = require("fs");
-    const { readdirSync, statSync, unlinkSync } = require('fs')
-    const readline = require("readline");
-    const pino = require("pino");
-    const { isOwner, getPrefix, allowedPrefixes } = require("./config");
-    const { handleCommand } = require("./main"); 
-    // Carga de credenciales y estado de autenticación
-    async function startBot() {
+   const { join } = require('path');
+const figlet = require("figlet");
+const fs = require("fs");
+const { readdirSync, statSync, unlinkSync } = require('fs');
+const readline = require("readline");
+const pino = require("pino");
+const { isOwner, getPrefix, allowedPrefixes } = require("./config");
+const { handleCommand } = require("./main");
+
+const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
+
+async function startBot() {
+  const { useMultiFileAuthState } = require('@whiskeysockets/baileys');
   const { state, saveCreds } = await useMultiFileAuthState("./sessions");
-  const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
+
+  // continúa tu lógica aquí...
+}
+
+startBot(); // para que se ejecute
+
       }
 
 startBot();
