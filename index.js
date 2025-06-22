@@ -87,26 +87,32 @@ const { cargarSubbots } = require("./indexsubbots");
     const chalk = require("chalk");
     const yargs = require('yargs/yargs')
     const { tmpdir } = require('os')
-   const { join } = require('path');
-const figlet = require("figlet");
-const fs = require("fs");
+  [11:36 p. m., 21/6/2025] ChatGPT: import { join } from 'path';
+import figlet from 'figlet';
+import fs from 'fs';
+import { readdirSync, statSync, unlinkSync } from 'fs';
+import readline from 'readline';
+import pino from 'pino';
+import { isOwner, getPrefix, …
+[11:36 p. m., 21/6/2025] ChatGPT: const { join } = require('path');
+const figlet = require('figlet');
+const fs = require('fs');
 const { readdirSync, statSync, unlinkSync } = require('fs');
-const readline = require("readline");
-const pino = require("pino");
-const { isOwner, getPrefix, allowedPrefixes } = require("./config");
-const { handleCommand } = require("./main");
-
-const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
+const readline = require('readline');
+const pino = require('pino');
+const { isOwner, getPrefix, allowedPrefixes } = require('./config');
+const { handleCommand } = require('./main');
+const { useMultiFileAuthState, downloadContentFromMessage } = require('@whiskeysockets/baileys');
 
 async function startBot() {
-  const { useMultiFileAuthState } = require('@whiskeysockets/baileys');
-  const { state, saveCreds } = await useMultiFileAuthState("./sessions");
-
-  // continúa tu lógica aquí...
+  const { state, saveCreds } = await useMultiFileAuthState('./sessions');
+  // aquí continúa el bot
 }
 
-startBot(); // para que se ejecute
+startBot();
+```
 
+---
       }
 
 startBot();
