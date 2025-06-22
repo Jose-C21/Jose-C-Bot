@@ -96,8 +96,12 @@ const { cargarSubbots } = require("./indexsubbots");
     const { isOwner, getPrefix, allowedPrefixes } = require("./config");
     const { handleCommand } = require("./main"); 
     // Carga de credenciales y estado de autenticación
-    const { state, saveCreds } = await useMultiFileAuthState("./sessions");
+    async function startBot() {
+  const { state, saveCreds } = await useMultiFileAuthState("./sessions");
   const { downloadContentFromMessage } = require('@whiskeysockets/baileys');
+      }
+
+startBot();
   //lista
 function isAllowedUser(sender) {
   const listaFile = "./lista.json";
