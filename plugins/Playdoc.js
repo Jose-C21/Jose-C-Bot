@@ -31,22 +31,16 @@ const handler = async (msg, { conn, text, usedPrefix }) => {
     const channel = video.author.name || 'Desconocido';
 
     const infoMessage = `
-╔══════════════════╗
-║  ✦ 𝘼𝙕𝙐𝙍𝘼 𝙐𝙇𝙏𝙍𝘼 𝟮.𝟬 𝗕𝗢𝗧 ✦
-╚══════════════════╝
 
-📀 *Info del audio:*  
+> частная система - 𝔍𝔬𝔰𝔢 ℭ
+
+
+ *Info del audio:*  
 ├ 🎼 *Título:* ${title}
 ├ ⏱️ *Duración:* ${fduration}
 ├ 👁️ *Vistas:* ${views}
 ├ 👤 *Autor:* ${channel}
 └ 🔗 *Enlace:* ${videoUrl}
-
-📥 *Opciones:*  
-┣ 🎵 _${usedPrefix}play1 ${text}_
-┣ 🎥 _${usedPrefix}play2 ${text}_
-┣ 🎥 _${usedPrefix}play6 ${text}_
-┗ ⚠️ *¿No se reproduce?* Usa _${usedPrefix}ff_
 
 ⏳ Procesando audio...
 ═══════════════════`;
